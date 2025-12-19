@@ -397,7 +397,7 @@ a { text-decoration: none; color: inherit; }
     display: inline-flex; /* 내용물 크기에 맞게 조절 */
     align-items: center;
     gap: 25px;
-    background-color: rgba(85, 85, 80, 0.7); /* 이미지와 유사한 회색 반투명 */
+    background-color: rgba(36, 47, 194, 0.7); /* 이미지와 유사한 회색 반투명 */
     padding: 8px 25px;
     border-radius: 30px; /* 알약 모양 */
     color: #fff;
