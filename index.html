@@ -16,7 +16,6 @@
 </head>
 
 <body>
-    <header>
         <header class="nps-header">
             <div class="top-util-bar">
                 <div class="inner-container">
@@ -102,13 +101,7 @@
                     </div>
                 </nav>
 
-
-                <div class="all-menu-btn">
-                    <span></span><span></span><span></span>
-                </div>
-            </div>
-            </nav>
-
+            </header>
             <main class="main-visual">
                 <div class="inner-container">
                     <div class="visual-text">
@@ -142,18 +135,7 @@
                         <div class="card news-card">
                             <div class="card-header">
                                 <h4>소식 정보</h4>
-                                <div class="dock-wrapper">
-                                    <div class="character-dock" onclick="toggleMenu()">
-                                        <img src="./images/독배너.png" class="char-info" alt="안내 캐릭터">
-                                    </div>
-                                    <ul class="quick-menu-list" id="quickMenu">
-                                        <li><a href="#">내 연금조회</a></li>
-                                        <li><a href="#">증명서 발급</a></li>
-                                        <li><a href="#">연금 수령액</a></li>
-                                        <li><a href="#">미납금 확인</a></li>
-                                        <li><a href="#">1:1 문의</a></li>
-                                    </ul>
-                                </div>
+                              
 
                                 <a href="#" class="btn-more">더보기 +</a>
                             </div>
@@ -171,13 +153,7 @@
                         </div>
                     </div>
                 </div>
-            </main>
-        </header>
-
-
-
-
-        <main>
+       
             <section class="quick-service">
                 <div class="inner">
                     <div class="service-header">
@@ -601,20 +577,6 @@
             </section>
         </main>
 
-        <div class="dock-container">
-            <ul class="quick-menu-list" id="quickMenu">
-                <li><a href="#">내 연금조회</a></li>
-                <li><a href="#">증명서 발급</a></li>
-                <li><a href="#">연금 수령액</a></li>
-                <li><a href="#">미납금 확인</a></li>
-                <li><a href="#">1:1 문의</a></li>
-            </ul>
-
-            <div class="character-dock" onclick="toggleMenu()">
-
-            </div>
-        </div>
-
         <div class="container">
         <div class="card card-purple">
             <div class="card-header">
@@ -672,6 +634,18 @@
         <footer>
             
         </footer>
+          <div class="dock-wrapper">
+                                    <div class="character-dock" onclick="toggleMenu()">
+                                        <img src="./images/독배너.png" class="char-info" alt="안내 캐릭터">
+                                    </div>
+                                    <ul class="quick-menu-list" id="quickMenu">
+                                        <li><a href="#">내 연금조회</a></li>
+                                        <li><a href="#">증명서 발급</a></li>
+                                        <li><a href="#">연금 수령액</a></li>
+                                        <li><a href="#">미납금 확인</a></li>
+                                        <li><a href="#">1:1 문의</a></li>
+                                    </ul>
+                                </div>
         <script>
             let currentPos = 0;
             const slider = document.getElementById('menuSlider');
